@@ -2,7 +2,7 @@ name: Refresh
 on:
   # performed every two hours
   schedule:
-    - cron: "35 */3 * * *"
+    - cron: "0 */2 * * *"
   workflow_dispatch:
 
 concurrency:
