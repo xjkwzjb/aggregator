@@ -141,3 +141,4 @@ config.local.json
 /.idea/modules.xml
 /.idea/vcs.xml
 /data/
+/.idea/git_toolbox_prj.xml
