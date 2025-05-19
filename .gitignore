@@ -137,8 +137,14 @@ config.local.json
 /.idea/inspectionProfiles/profiles_settings.xml
 /.idea/.gitignore
 /.idea/aggregator.iml
+/.idea/git_toolbox_prj.xml
 /.idea/misc.xml
 /.idea/modules.xml
 /.idea/vcs.xml
-/data/
-/.idea/git_toolbox_prj.xml
+/data/clash.yaml
+/data/coupons.txt
+/data/domains.txt
+/data/singbox.json
+/data/subscribes.txt
+/data/v2ray.txt
+/data/valid-domains.txt
