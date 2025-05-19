@@ -2,13 +2,15 @@ name: Delete
 on:
   schedule:
     - cron: "0 0 * * SUN"
-
 jobs:
   del_runs:
     runs-on: ubuntu-latest
+    permissions:
+      actions: write
+      contents: read
     steps:
-      - name: Delete
-        uses: GitRML/delete-workflow-runs@main
+      - name: Delete workflow runs for remote repo
+        uses: Mattraks/delete-workflow-runs@v2
         with:
           token: ${{ github.token }}
           repository: ${{ github.repository }}
