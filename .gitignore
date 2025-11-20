@@ -148,3 +148,5 @@ config.local.json
 /data/subscribes.txt
 /data/v2ray.txt
 /data/valid-domains.txt
+/.idea/encodings.xml
+/.idea/MarsCodeWorkspaceAppSettings.xml
